@@ -1,10 +1,10 @@
 
 var mysql = require('mysql');
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "schedule"
+    host: "sql8.freemysqlhosting.net",
+    user: "sql8189643",
+    password: "wnjTT7FmfV",
+    database: "sql8189643"
 });
 con.connect(function(err) {
     if (err) throw err;
@@ -15,3 +15,7 @@ module.exports =con;
 /**
  * Created by ayatalat on 8/21/2017.
  */
+
+
+
+
